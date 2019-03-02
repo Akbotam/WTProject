@@ -1,0 +1,145 @@
+#pinkHead{
+    position: absolute;
+    width: 1440px;
+    height: 59px;
+    left: 0px;
+    top: 0px;
+    background: #FFCAC6;
+}
+
+#skidka{
+    position: absolute;
+    width: 434px;
+    height: 29px;
+    left: 503px;
+    top: 15px;
+
+    font-family: Cambria Math;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 24px;
+    text-align: center;
+
+color: #BE4A00;
+}
+
+#logo{
+    position: absolute;
+    width: 313px;
+    height: 77px;
+    left: 573px;
+    top: 94px;
+
+    background: #C4C4C4;
+}
+
+
+#input{
+    
+    position: absolute;
+    left: 470px;
+    width: 513px;
+    top: 200px;
+    bottom: 91.6%;
+}
+
+/* .form-control{
+    border-radius: 77px;
+} */
+
+
+.form-control.mr-sm-2{
+    width: 513px;
+    border-radius: 70px;
+}
+
+#poisk-knopka{
+    position: relative;
+    bottom: 39px;
+    left: 469px;
+    border-radius: 50%;
+    background: #BE4A00;
+    border-color: #BE4A00;
+}
+
+#menu{
+    position: absolute;
+    width: 782px;
+    height: 28px;
+    left: 343px;
+    top: 273px;
+}
+.nav-link{
+    font-family: Cambria Math;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 18px;
+
+    color: #BE4A00;
+}
+.nav-link:hover{
+    color: #000000;
+}
+#rectangle{
+
+    position: absolute;
+    width: 1440px;
+    height: 332px;
+    left: 0px;
+    top: 301px;
+
+    background: url('images/news.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+#odezhda{
+    position: absolute;
+    width: 191px;
+    height: 56px;
+    left: 624px;
+    top: 644px;
+
+    font-family: Cambria Math;
+    line-height: 20px;
+    font-size: 48px;
+    letter-spacing: 0.02em;
+
+    color: #BE4A00;
+}
+#line{
+    position: absolute;
+    width: 1440px;
+    height: 5px;
+    left: 0px;
+    top: 711px;
+
+    background: #BE4A00;
+}
+#bar{
+    position: absolute;
+    width: 319px;
+    height: 678px;
+    left: 42px;
+    top: 728px;
+
+    background: #FFFFFF;
+}
+.bar-link{
+
+    font-family: Cambria Math;
+    line-height: 20px;
+    font-size: 18px;
+
+    color: #000000;
+}
+.row{
+    position: absolute;
+    left: 30%;
+    right: 0.83%;
+    top: 110%;
+    bottom: 0%;
+}
+
+
