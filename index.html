@@ -3,7 +3,7 @@
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -21,7 +21,7 @@
         <div id="poisk">
                         <form class="form-inline" id="input">
                           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-primary" id="poisk-knopka" type="submit">S</button>
+                          <button class="btn btn-primary" id="poisk-knopka" type="submit"><i class="fa fa-search"></i></button>
                         </form>
         </div>
         <div id="menu">
@@ -60,55 +60,58 @@
             <button type="button" id="banner-but" class="btn btn-outline-secondary">Узнать больше</button>
         </div>
 
+        <div id="line"></div>
+
         <div id="news">
+            
             <h1 id="news-text">НОВОСТИ ИЗ МИРА МОДЫ И КРАСОТЫ</h1>
+            <center>
             <div class="container">
                 <div class="row">
                     <div class="col-sm1">
                         <img src="Pictures/asos-ww-style-lessons-dior-10.jpg">
-                        <div id="col-info"></div>
+                        <div id="col-info1"></div>
                         <h1 class="info-style" id = "col-info-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</h1>
                     </div>
                     <div class="col-sm2">
                         <img src="Pictures/asos_ww_5_of_the_best_new-season-dresses-3.jpg">
-                       <div id="col-info"></div>
+                       <div id="col-info2"></div>
                     </div>
                     <div  class="col-sm3">
                         <img src="Pictures/www-article-street-style-3.jpg">
                         <div id="col-info"></div>
                     </div>
                 </div>
-                <center>
+                
                     <button type="button" id="news-but" class="btn btn-outline-secondary">Смотреть все</button>
-                </center>
+            </center>
             </div>
         </div>
-
-        <div id="actual">
-            <div id="actual-line1"></div>
-            <div class="container-actual">
-                <div class="row">
-                    <div class="col-sm">
-                        One of three columns
-                    </div>
-                    <div class="col-sm">
-                        One of three columns
-                    </div>
-                    <div class="col-sm">
-                            One of three columns
-                    </div>
-                    <div class="col-sm">
-                        One of three columns
-                    </div>
-                    <div class="col-sm">
-                            One of three columns
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="line"></div>
     </body>
     <footer>
+        <div class="container">
+            <center>
+            <div class="row">
+                <div class="col-sm">
+                    <h1 id="footer-title">О НАС</h1>
+                    <div id="footer-line"></div>
+                    <p align="justify" id="footer-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                </div>
+                <div class="col-sm">
+                    <h1 id="footer-title">КОНТАКТЫ</h1>
+                    <div id="footer-line"></div>
+                    <p align="justify" id="footer-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                </div>
+                <div class="col-sm">
+                    <h1 id="footer-title">Оставайся с нами</h1>
+                    <p align="justify" id="footer-text-last">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                    <div class="col-md-4 mb-3">
+                            <!-- <label for="validationCustom02" id="user-em">Ваша почта</label> -->
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="e-mail" >
+                    </div>
+                </div>
+            </center>
+            </div>
+        </div>
     </footer>
 </html>
