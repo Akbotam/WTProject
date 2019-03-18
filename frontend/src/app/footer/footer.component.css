@@ -1,0 +1,29 @@
+#footer-text{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+
+    color: #BE4A00;;
+}
+
+
+#footer-t{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
