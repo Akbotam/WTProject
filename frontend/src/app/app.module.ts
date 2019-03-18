@@ -4,10 +4,12 @@ import { RouterModule } from '@angular/router'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { DetailComponent } from './detail/detail.component';
 import { ClothesComponent } from './clothes/clothes.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { ClothesComponent } from './clothes/clothes.component';
     HomeComponent,
     ContactComponent,
     DetailComponent,
-    ClothesComponent
+    ClothesComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
