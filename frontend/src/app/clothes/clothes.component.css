@@ -87,7 +87,7 @@ color: #BE4A00;
     color: #BE4A00;
 }
 #line{
-    width: 1440px;
+  /*  width: 1440px; */
     height: 5px;
     left: 0px;
     top: 711px;
