@@ -1,11 +1,40 @@
-#banner{
-    height: 600px;
-}
 
 .box{
     
     height: 560px;
-    background: linear-gradient(180deg, #FFCAC6 34.25%, #DB8383 99%);
+    
+    background-image: url("../../assets/banner.png");
+
+}
+
+#banner-t{
+    font-family: Cambria Math;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+
+#banner-btn{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #B13A3A;
+    border: 3px solid #B13A3A;
+    box-sizing: border-box;
+}
+
+
+#banner-btn:hover{
+    color: #FFFFFF;
+    background-color: #B13A3A;
 }
 
 #line{
