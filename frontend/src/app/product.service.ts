@@ -16,6 +16,10 @@ export class ProductService {
     return of(PRODUCTS);
   }
 
+  getProductsByCategory(category: number): Observable<Product[]> {
+    return of(PRODUCTS.filter(product => product.category === category));
+  }
+
   getProduct(id: number): Observable<Product> {
     return of(PRODUCTS.find(product => product.id === id));
   }

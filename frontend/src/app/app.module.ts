@@ -32,12 +32,17 @@ import { FooterComponent } from './footer/footer.component';
         pathMatch: 'full'
       },
       {
+        path: 'clothes',
+        redirectTo: '/clothes/0',
+        pathMatch: 'full'
+      },
+      {
         path: 'home',
         component: HomeComponent
       },
       {
-        path: 'clothes',
-        component: ClothesComponent
+        path: 'clothes/:category',
+        component: ClothesComponent,
       },
       {
         path: 'contact',

@@ -7,49 +7,46 @@
     <div id="bar">
       <ul style="list-style-type:none">
         <dl class="bar-item" >
-          <a class="bar-link active" href="#">Все товары</a>
+          <a class="bar-link active" [routerLink]="['/clothes/0']">Все товары</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Одежда для активного образа жизни</a>
+          <a class="bar-link" [routerLink]="['/clothes/4']">Одежда для активного образа жизни</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Платья</a>
+          <a class="bar-link" [routerLink]="['/clothes/3']">Платья</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Жакеты и пальто</a>
+          <a class="bar-link" [routerLink]="['/clothes/1']">Жакеты и пальто</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Джинсы</a>
+          <a class="bar-link" [routerLink]="['/clothes/2']">Джинсы</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Комбинезоны</a>
+          <a class="bar-link">Комбинезоны</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Нижнее белье и одежда для сна</a>
+          <a class="bar-link">Для беременных</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Для беременных</a>
+          <a class="bar-link">Брюки и леггинсы</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Брюки и леггинсы</a>
+          <a class="bar-link">Шорты</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Шорты</a>
+          <a class="bar-link">Юбки</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Юбки</a>
+          <a class="bar-link">Элементы костюмов</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Элементы костюмов</a>
+          <a class="bar-link">Свитера и вязаные изделия</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Свитера и вязаные изделия</a>
+          <a class="bar-link" >Пляжная одежда</a>
         </dl>
         <dl class="bar-item">
-          <a class="bar-link" href="#">Пляжная одежда</a>
-        </dl>
-        <dl class="bar-item">
-          <a class="bar-link" href="#">Топы</a>
+          <a class="bar-link">Топы</a>
         </dl>
       </ul>
     </div>
@@ -57,11 +54,9 @@
 
 <div class="col-md-4 col-sm-4" *ngFor="let item of clothes; let i = index">
   <div class="thumbnail">
-    <a href={{item.url}}>
-    <img src={{item.url}} alt="Lights" style="width:100%">
+    <img src={{item.imageurl}} [routerLink]="['/detail/'+item.id]" alt="Lights" style="width:100%">
     <div class="caption">
     <p>{{item.name}}</p>
     </div>
-    </a>
     </div>
 </div>
