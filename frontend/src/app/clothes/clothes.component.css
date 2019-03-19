@@ -1,0 +1,120 @@
+#pinkHead{
+    width: 1440px;
+    height: 59px;
+    left: 0px;
+    top: 0px;
+    background: #FFCAC6;
+}
+
+#skidka{
+    width: 434px;
+    height: 29px;
+    left: 503px;
+    top: 15px;
+
+    font-family: Cambria Math;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 24px;
+    text-align: center;
+
+color: #BE4A00;
+}
+
+#logo{
+    width: 313px;
+    height: 77px;
+    left: 573px;
+    top: 94px;
+
+    background: #C4C4C4;
+}
+
+
+#input{
+    
+    position: absolute;
+    left: 470px;
+    width: 513px;
+    top: 200px;
+    bottom: 91.6%;
+}
+
+/* .form-control{
+    border-radius: 77px;
+} */
+
+
+.form-control.mr-sm-2{
+    width: 513px;
+    border-radius: 70px;
+}
+
+.nav-link{
+    font-family: Cambria Math;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 18px;
+
+    color: #BE4A00;
+}
+.nav-link:hover{
+    color: #000000;
+}
+#rectangle{
+
+    height: 332px;
+    left: 0px;
+    top: 301px;
+
+    background: url('https://cdn.shopify.com/s/files/1/1407/1106/files/sale_68165c15-97a1-4a6b-9898-8ede647a4ff9.jpg?v=1543273161');
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+
+}
+#odezhda{
+    height: 56px;
+    left: 624px;
+    top: 644px;
+
+    font-family: Cambria Math;
+    line-height: 20px;
+    font-size: 48px;
+    letter-spacing: 0.02em;
+
+    color: #BE4A00;
+}
+#line{
+    width: 1440px;
+    height: 5px;
+    left: 0px;
+    top: 711px;
+
+    background: #BE4A00;
+}
+#bar{
+    width: 319px;
+    height: 678px;
+    left: 42px;
+    top: 728px;
+
+    background: #FFFFFF;
+}
+.bar-link{
+
+    font-family: Cambria Math;
+    line-height: 20px;
+    font-size: 18px;
+
+    color: #000000;
+}
+.row{
+    left: 30%;
+    right: 0.83%;
+    top: 110%;
+    bottom: 0%;
+}
+
+
