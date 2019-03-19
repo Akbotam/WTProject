@@ -1,0 +1,210 @@
+#pinkHead{
+    position: relative;
+    width: 100%;
+    height: 59px;
+    left: 0px;
+    top: 0px;
+    text-align: center; 
+    background: #FFCAC6;
+}
+
+#skidka{
+    position: absolute;
+    width: 434px;
+    height: 29px;
+    left: 545px;
+    top: 15px;
+
+    font-family: Cambria Math;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 24px;
+    text-align: center;
+
+color: #BE4A00;
+}
+
+#logo{
+    position: relative;
+    width: 313px;
+    height: 77px;
+    top: 60px;
+
+    background: #C4C4C4;
+}
+
+#input{
+    
+    position: relative;
+    left: 470px;
+    width: 513px;
+    top: 200px;
+    bottom: 91.6%;
+}
+
+/* .form-control{
+    border-radius: 77px;
+} */
+
+
+.form-control.mr-sm-2{
+    width: 513px;
+    border-radius: 70px;
+}
+
+#poisk-knopka{
+    position: relative;
+    bottom: 39px;
+    left: 469px;
+    border-radius: 50%;
+    background: #BE4A00;
+    border-color: #BE4A00;
+}
+
+#menu{
+    position: absolute;
+    width: 782px;
+    height: 28px;
+    left: 370px;
+    top: 273px;
+}
+
+.nav-link{
+    font-family: Cambria Math;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 18px;
+
+    color: #BE4A00;
+}
+
+.nav-link:hover{
+    color: #000000;
+}
+
+#banner{
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    top: 201px;
+    left: 277px;
+
+    background: linear-gradient(180deg, #FFCAC6 34.25%, #DB8383 99%);
+}
+
+.spring{
+
+    font-family: Calisto MT;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 150px;
+    text-align: center;
+    z-index: 2;
+    color: #FFFFFF;
+}
+#s1{
+    position: absolute;
+    width: 627px;
+    height: 147px;
+    left: 366px;
+    top: 120px;
+}
+
+#s2{
+    position: absolute;
+    width: 627px;
+    height: 147px;
+    left: 366px;
+    top: 228px;
+}
+
+#s3{
+    position: absolute;
+    width: 627px;
+    height: 147px;
+    left: 362px;
+    top: 336px;
+}
+
+#s4{
+    position: absolute;
+    width: 627px;
+    height: 147px;
+    left: 362px;
+    top: 444px;
+
+}
+
+#black-frame{
+    position: absolute;
+    width: 427px;
+    height: 541px;
+    left: 80px;
+    top: 38px;
+
+    background: #000000;
+}
+
+#banner-text{
+    position: absolute;
+    width: 364px;
+    height: 349px;
+    left: 1006px;
+    top: 120px;
+
+    font-family: Cambria Math;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#banner-but{
+    position: absolute;
+    left: 1090px;
+    top: 400px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 24px;
+    text-align: center;
+
+    color: #B13A3A;
+    border: 3px solid #B13A3A;
+    box-sizing: border-box;
+
+}
+
+
+
+#line{
+    position: absolute;
+    width: 1440px;
+    height: 16px;
+    left: 0px;
+    top: 904px;
+
+    background: #DB8383;
+}
+
+#news{
+    position: absolute;
+    width: 100%;
+    height: 620px;
+    background: #B13A3A;
+    top: 1000px;
+    
+}
+
+#map{
+
+    position: relative;
+    top:70px;
+}

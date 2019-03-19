@@ -1,3 +1,41 @@
-<p>
-  contact works!
-</p>
+<div id="banner">
+
+  <form>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Имя*</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Почта*</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите электронную почту">
+        <small id="emailHelp" class="form-text text-muted">Мы никогда не передадим вашу электронную почту кому-либо еще.</small>
+  </div>
+  <div class="form-group">
+      <label for="exampleFormControlTextarea1">Сообщение*</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </form>
+
+      <div id="map">
+
+      <div id="googleMap" style="width:100%;height:400px;"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.7212819493147!2d76.91574621521538!3d43.25726288596124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883694d55de14d5%3A0xb93d1879bd348185!2sAlberto+bar!5e0!3m2!1sen!2skz!4v1551426724729" width="1000" height="361" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</div>
+
+<script>
+  function myMap() {
+    var mapProp= {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+          };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  }
+</script>
+
+
+
+</div>
+
+</div>
