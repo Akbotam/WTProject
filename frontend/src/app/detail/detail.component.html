@@ -1,21 +1,21 @@
-<div class="container p-2">
+<div *ngIf="product" class="container p-2">
   <div class="row">
     <div class="col-md-7 p-3">
-      <img class="img-fluid" src={{url}}
+      <img class="img-fluid" src={{product.imageurl}}
       alt="Image"  height="345">
     </div>
     <div class="col-md-5">
       <div class="container p-5">
-        <h5 class="text-left p-1 text-uppercase"> {{name}} </h5>
-        <h6 class="p-1">{{cost}} KZT</h6>
+        <h5 class="text-left p-1 text-uppercase"> {{product.name}} </h5>
+        <h6 class="p-1">{{product.cost}} KZT</h6>
         <div class="container break-text">
           <div class="row">
             <div class="col-xs-5 p-1">
-              <p> {{description}}</p>
+              <p> {{product.description}}</p>
             </div>
           </div>
         </div>
+      </div>
     </div>
   </div>
-
 </div>

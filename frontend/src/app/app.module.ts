@@ -27,6 +27,11 @@ import { FooterComponent } from './footer/footer.component';
     AppRoutingModule,
     RouterModule.forRoot([
       {
+        path: '',
+        redirectTo: '/home',
+        pathMatch: 'full'
+      },
+      {
         path: 'home',
         component: HomeComponent
       },
@@ -39,7 +44,7 @@ import { FooterComponent } from './footer/footer.component';
         component: ContactComponent
       },
       {
-        path: 'detail',
+        path: 'detail/:id',
         component: DetailComponent
       }
     ])
